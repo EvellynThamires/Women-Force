@@ -4,6 +4,7 @@ import WomenForceRouter from './routes'
 import Header from './components/header/header';
 import Footer from './components/Footer/Footer'
 import './assets/css/global.css'
+import FormTest from './firebase'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <WomenForceRouter /> 
       <Footer />
+      <FormTest />
     </div>
   );
 }
